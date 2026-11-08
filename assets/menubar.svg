@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Black, not currentColor: AppKit draws it as a template image, tinted to the menu bar. -->
+  <!-- keyboard outline (top-right corner opened up for the sparkle) + slash -->
+  <path d="M19.8715 19.8715C19.5957 19.9551 19.3031 20 19 20L5 20C3.3431 20 2 18.6569 2 17L2 7C2 5.6462 2.8967 4.5019 4.1285 4.1285M8 16L16 16M9.6569 4L14 4M22 10L22 16.3431M2 2L22 22"/>
+  <!-- sparkle -->
+  <path d="M20 1Q20 4 23 4Q20 4 20 7Q20 4 17 4Q20 4 20 1Z" stroke-width="1.5"/>
+  <!-- keys (top-right key removed to make room) -->
+  <path d="M13.5 7L14.5 7C14.7761 7 15 7.2239 15 7.5L15 8.5C15 8.7761 14.7761 9 14.5 9L13.5 9C13.2239 9 13 8.7761 13 8.5L13 7.5C13 7.2239 13.2239 7 13.5 7ZM5.5 11L6.5 11C6.7761 11 7 11.2239 7 11.5L7 12.5C7 12.7761 6.7761 13 6.5 13L5.5 13C5.2239 13 5 12.7761 5 12.5L5 11.5C5 11.2239 5.2239 11 5.5 11ZM17.5 11L18.5 11C18.7761 11 19 11.2239 19 11.5L19 12.5C19 12.7761 18.7761 13 18.5 13L17.5 13C17.2239 13 17 12.7761 17 12.5L17 11.5C17 11.2239 17.2239 11 17.5 11Z" fill="black" stroke="none"/>
+</svg>

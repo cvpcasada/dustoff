@@ -1,0 +1,16 @@
+[package]
+name = "dustoff"
+version = "0.1.0"
+edition = "2024"
+description = "Lock your Mac's keyboard and trackpad while you clean them"
+license = "MIT"
+repository = "https://github.com/cvpcasada/dustoff"
+publish = false
+
+[dependencies]
+objc2 = "0.5.2"
+objc2-app-kit = { version = "0.2.2", features = ["NSStatusBar", "NSStatusItem", "NSStatusBarButton", "NSButton", "NSControl", "NSResponder", "NSView", "NSMenu", "NSMenuItem", "NSApplication", "NSImage"] }
+objc2-core-foundation = { version = "0.3", features = ["CFMachPort", "CFRunLoop"] }
+objc2-core-graphics = { version = "0.3", features = ["CGEvent", "CGEventTypes", "CGRemoteOperation"] }
+objc2-foundation = { version = "0.2.2", features = ["NSData", "NSGeometry"] }
+rune = { git = "https://github.com/anomalyco/rune", rev = "a7f276c3630f85a06a0230295da4d2bd172d8d3b", version = "0.0.1" }
